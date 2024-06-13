@@ -11,7 +11,7 @@
 				"-DNDEBUG",
 				"${file}",
 				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.so",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
 				"-D_WIN32_WINNT=0x0501",
 				"-pthread",
 				"-L${workspaceFolder}\\lib",
